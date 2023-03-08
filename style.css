@@ -1,5 +1,5 @@
 body {
-    background-color: #1F2937;
+    background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -16,9 +16,10 @@ button {
     color: #E5E7EB;
     padding-top: 10px;
     align-items: center;
-    margin-bottom: 100px;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-bottom: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1F2937;
 }
 
 a {
@@ -43,9 +44,10 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     height: 200px;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 50px;
+    background-color: #1F2937;
 }
 
 .content-1-text {
@@ -72,20 +74,21 @@ a {
 
 .signup {
     width: fit-content;
-    height: 35px;
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 4px 20px;
+    padding: 4px 40px;
     font-size: small;
     font-weight: 700;
     border: none;
+    font-size: large;
+    flex-shrink: 0;
 }
 
 .main-image {
     width: auto;
     height: 100%;
-    flex-shrink: 0;
+
     object-fit: contain;
 }
 
@@ -99,8 +102,8 @@ a {
     
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .random-information {
@@ -139,8 +142,8 @@ a {
 .content-3 {
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #E5E7EB;
 }
 
@@ -153,4 +156,46 @@ a {
     font-size: large;
     font-weight: bolder;
     text-align: right;
+}
+
+/* End content3*/
+
+/* Start content4 */
+
+.content-4 {
+    margin: 80px 15%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-call {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.indication {
+    color: #ffffff;
+    font-size: large;
+}
+
+.signup.white-border {
+
+    border: solid 2px #ffffff;
+}
+
+/* End content4*/
+
+/* Start Bottom */
+
+.bottom {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
